@@ -15,6 +15,7 @@ const locationTypeMap = {
     element: 'elements',
     partial: 'partials',
     page: 'pages',
+    layout: 'layouts',
 };
 
 async function runEslintFixOnPaths(paths) {
@@ -60,7 +61,7 @@ async function runStylelintFixOnPaths(paths) {
  */
 function createComponent(baseDir, rootDirOrPath, location, name) {
 
-    const alowedTypes = ['element', 'partial', 'page'];
+    const alowedTypes = ['element', 'partial', 'page' | 'layout'];
 
     const isPage = location === 'page';
 

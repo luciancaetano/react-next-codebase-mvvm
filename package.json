@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --fix ./src --ext .tsx --ext .ts",
+    "stylelint": "stylelint \"src/**/*.scss\" --syntax scss --fix"
   },
   "dependencies": {
     "clsx": "^1.2.1",

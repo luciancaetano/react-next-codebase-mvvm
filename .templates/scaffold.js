@@ -5,7 +5,7 @@ const createComponent = require('./component/index');
 const isWindows = process.platform === 'win32';
 
 program
-    .argument("<type>", "Type of component to create [element, partial, page]")
+    .argument("<type>", "Type of component to create [element, partial, page, layout]")
     .argument("<name>", "Name of component to create")
     .description("Create a new component")
     .option('-d, --dir <dir>', 'Directory to create component in')
