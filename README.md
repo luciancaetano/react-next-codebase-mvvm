@@ -1,4 +1,4 @@
-# Fast and scalable React Typescript Starter
+# Fast and scalable Next.js Typescript Starter
 ## Features
 - [x] React
 - [x] Typescript
